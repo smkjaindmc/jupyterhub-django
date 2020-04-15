@@ -1,0 +1,26 @@
+[jupyterhub.authenticators]
+auth0 = oauthenticator.auth0:Auth0OAuthenticator
+azuread = oauthenticator.azuread:AzureAdOAuthenticator
+bitbucket = oauthenticator.bitbucket:BitbucketOAuthenticator
+cilogon = oauthenticator.cilogon:CILogonOAuthenticator
+generic-oauth = oauthenticator.generic:GenericOAuthenticator
+github = oauthenticator.github:GitHubOAuthenticator
+gitlab = oauthenticator.gitlab:GitLabOAuthenticator
+globus = oauthenticator.globus:GlobusOAuthenticator
+google = oauthenticator.google:GoogleOAuthenticator
+local-auth0 = oauthenticator.auth0:LocalAuth0OAuthenticator
+local-azuread = oauthenticator.azuread:LocalAzureAdOAuthenticator
+local-bitbucket = oauthenticator.bitbucket:LocalBitbucketOAuthenticator
+local-cilogon = oauthenticator.cilogon:LocalCILogonOAuthenticator
+local-generic-oauth = oauthenticator.generic:LocalGenericOAuthenticator
+local-github = oauthenticator.github:LocalGitHubOAuthenticator
+local-gitlab = oauthenticator.gitlab:LocalGitLabOAuthenticator
+local-globus = oauthenticator.globus:LocalGlobusOAuthenticator
+local-google = oauthenticator.google:LocalGoogleOAuthenticator
+local-mediawiki = oauthenticator.mediawiki:LocalMWOAuthenticator
+local-okpy = oauthenticator.okpy:LocalOkpyOAuthenticator
+local-openshift = oauthenticator.openshift:LocalOpenShiftOAuthenticator
+mediawiki = oauthenticator.mediawiki:MWOAuthenticator
+okpy = oauthenticator.okpy:OkpyOAuthenticator
+openshift = oauthenticator.openshift:OpenShiftOAuthenticator
+

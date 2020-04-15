@@ -1,0 +1,3 @@
+[console_scripts]
+certipy = certipy.command_line:main
+
